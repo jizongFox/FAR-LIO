@@ -15,6 +15,19 @@ research reference for offline runs, not a replacement for the deployed LIO stac
 
 ## Install and run
 
+To run a self-contained four-scan demo with known ground-truth motion:
+
+```bash
+python -m pip install -e ./python
+python python/examples/synthetic_demo.py --output-dir ./python-demo
+```
+
+The script writes generated scans, `result/trajectory.csv`, and `result/map.npz`,
+and prints translation/rotation errors against the known poses. Choose a new
+`--output-dir` for another run.
+
+For your own scans:
+
 ```bash
 python -m pip install -e ./python
 far-lio-python \
