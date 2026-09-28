@@ -19,6 +19,9 @@
 
 <h2 align="center"><a href="https://tumftm.github.io/FAR-LIO">📖 Documentation</a></h2>
 
+An offline [Python reference implementation](python/README.md) of the LiDAR odometry
+core is available for research and inspection.
+
 ## Installation
 
 Pull the pre-built CUDA image from the GitHub Container Registry:
